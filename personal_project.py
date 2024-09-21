@@ -5,7 +5,7 @@ from PyQt5.QtWidgets import (QApplication, QMainWindow, QWidget, QVBoxLayout,
                             QMessageBox)
 import bcrypt
 import mysql.connector
-import smtplib
+# import smtplib
 
 class MyLogin(QMainWindow):
     def __init__(self):
