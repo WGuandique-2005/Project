@@ -15,8 +15,8 @@ class MyLogin(QMainWindow):
         self.setContentsMargins(20,20,20,20)
         
         self.db = mysql.connector.connect(
-            user="root",
-            password="12345",
+            user="root",# Aqui se coloca el user, creo que siempre seria root
+            password="12345", # Aqui colocas tu contraseña
             host="localhost",
             database="mysql01"
         )
@@ -78,8 +78,8 @@ class myApp(QMainWindow):
         self.setContentsMargins(25,10,25,20)
         
         self.db = mysql.connector.connect(
-            user="root",
-            password="12345",
+            user="root",# Aqui se coloca el user, creo que siempre seria root
+            password="12345", # Aqui colocas tu contraseña
             host="localhost",
             database="mysql01"
         )
