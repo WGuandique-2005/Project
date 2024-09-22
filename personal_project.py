@@ -1,11 +1,10 @@
 import sys
 from PyQt5.QtWidgets import (QApplication, QMainWindow, QWidget, QVBoxLayout,
                             QLineEdit, QTextEdit, QLabel, QPushButton,
-                            QFormLayout, QComboBox, QDialog, QRadioButton,
-                            QMessageBox)
+                            QFormLayout, QDialog, QRadioButton, QMessageBox)
 import bcrypt
 import mysql.connector
-# import smtplib
+# import smtplib (proximamente se utilizara en nuevas funciones)
 
 class MyLogin(QMainWindow):
     def __init__(self):
