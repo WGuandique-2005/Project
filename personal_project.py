@@ -278,7 +278,7 @@ class myApp(QMainWindow):
         self.question.setLayout(layout)
 
         if self.question.exec_() == QDialog.Accepted:
-            pass  # No necesitamos hacer nada aquí
+            pass
 
     def exec_delete(self):
         try:
