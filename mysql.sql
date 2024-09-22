@@ -16,4 +16,6 @@ password varchar(350)
 
 select * from producto;
 select * from user;
+
+// Esta parte ya no es neccesaria:
 insert into user (user_name, password) values ('admin', '$2b$18$g8Ii3Z72l0w87aAmQ6Zioe013JmRLNJZf2Llu4edq/G96Bq0PrPBC');
