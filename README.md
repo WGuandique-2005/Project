@@ -3,6 +3,6 @@ luego se instala las librerias que aparecen en  requeriments.txt (son obligatori
 
 - Por favor los comentarios que contiene el codigo, ya que se modifican algunas cosas para la conexion con mysql
 
-- Ya se añadio la funcion de crear un usuario
+- Ya se añadio la función de crear un usuario
 
 (opcionalmente se puede crear un entorno)
