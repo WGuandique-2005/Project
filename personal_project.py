@@ -120,7 +120,7 @@ class RegisterWindow(QMainWindow):
             QMessageBox.warning(self, "Error", "Las contraseñas no coinciden")
         else:
             pw_encoded = pw.encode()
-            salt = bcrypt.gensalt(12)
+            salt = bcrypt.gensalt(18)
             hash_pw = bcrypt.hashpw(pw_encoded, salt)
             
             cursor = self.parent.db.cursor()
