@@ -204,13 +204,13 @@ class myApp(QMainWindow):
         resultados = cursor.fetchall()
         
         texto = "Productos:\n"
-        texto += "---------\n"
+        texto += "---------------------------\n"
         for fila in resultados:
-            texto += f"_id: {fila[0]}\n"
+            texto += f"ID: {fila[0]}\n"
             texto += f"Nombre: {fila[1]}\n"
             texto += f"Precio: {fila[2]}\n"
             texto += f"Cantidad: {fila[3]}\n"
-            texto += "---------\n"
+            texto += "---------------------------\n"
         
         self.view.setText(texto)
         

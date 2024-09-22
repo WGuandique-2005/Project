@@ -4,14 +4,14 @@ use mysql01;
 create table producto(
 id int auto_increment primary key,
 nombre varchar(100),
-precio decimal(4,2),
+precio decimal(5,2),
 cantidad int
 );
 
 create table user(
 id int auto_increment primary key,
-user_name varchar(50),
-password varchar(350)
+user_name varchar(100),
+password varchar(300)
 )
 
 select * from producto;
