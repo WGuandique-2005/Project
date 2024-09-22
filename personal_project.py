@@ -42,8 +42,8 @@ class MyLogin(QMainWindow):
         self.setCentralWidget(center)
         
     def clicked_btn(self):
-        user = self.txt_un.text()  # Obtener el texto del campo de usuario
-        pw = self.txt_pw.text()  # Obtener el texto del campo de contraseña
+        user = self.txt_un.text()
+        pw = self.txt_pw.text()
         
         if not user or not pw:
             QMessageBox.warning(self, "Error", "Por favor ingrese su usuario y contraseña")
