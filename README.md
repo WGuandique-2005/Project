@@ -1,4 +1,4 @@
-Primero haces todas las cosas del .sql, la creacion de la bd y esas dos tablas, 
+Primero se realizan todas las cosas del .sql, la creacion de la bd y las dos tablas, 
 luego se instala las librerias que aparecen en  requeriments.txt (son obligatorias) y asi en teoria no deberia dar problemas
 
 
